@@ -6,7 +6,6 @@ def StartConvertisseur():
 
 def Convertisseur(Input, InputValue):
     if Input == 1 and isinstance(InputValue, int):
-        print(InputValue * 1.0494)
         return InputValue * 1.0494
     elif Input == 2 and isinstance(InputValue, float):
         return (InputValue * 9 / 5) + 32
